@@ -10,8 +10,9 @@ class Livro():
         self.paginas = paginas
 
     def add_livro(self):
-        informações = []
+        informações = [0, 0, 0]
+        informações[0] = self.titulo
+        informações[1] = self.autor
+        informações[2] = self.paginas
 
-        i = 0
-        while i < 3:
-            pass
+        return informações
